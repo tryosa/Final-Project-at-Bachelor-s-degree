@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Sahel;
+    src: url('../Fonts/Sahel.eot');
+    src: url('../Fonts/Sahel.eot?#iefix') format('embedded-opentype'), url('../Fonts/Sahel.woff2') format('woff2'), url('../Fonts/Sahel.woff') format('woff'), url('../Fonts/Sahel.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../Fonts/Sahel-Bold.eot');
+    src: url('../Fonts/Sahel-Bold.eot?#iefix') format('embedded-opentype'), url('../Fonts/Sahel-Bold.woff2') format('woff2'), url('../Fonts/Sahel-Bold.woff') format('woff'), url('../Fonts/Sahel-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../Fonts/Sahel-Light.eot');
+    src: url('../Fonts/Sahel-Light.eot?#iefix') format('embedded-opentype'), url('../Fonts/Sahel-Light.woff2') format('woff2'), url('../Fonts/Sahel-Light.woff') format('woff'), url('../Fonts/Sahel-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../Fonts/Sahel-SemiBold.eot');
+    src: url('../Fonts/Sahel-SemiBold.eot?#iefix') format('embedded-opentype'), url('../Fonts/Sahel-SemiBold.woff2') format('woff2'), url('../Fonts/Sahel-SemiBold.woff') format('woff'), url('../Fonts/Sahel-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../Fonts/Sahel-Black.eot');
+    src: url('../Fonts/Sahel-Black.eot?#iefix') format('embedded-opentype'), url('../Fonts/Sahel-Black.woff2') format('woff2'), url('../Fonts/Sahel-Black.woff') format('woff'), url('../Fonts/Sahel-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+body,
+html {
+    font-family: Sahel;
+}
+
+.bg {
+    background-color: #F7F7FA;
+    padding-bottom: 75px;
+}
+
+#modal {
+    border-radius: 12px;
+    direction: rtl;
+    text-align: right;
+    position: fixed;
+    width: 500px;
+    height: 590px;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0 0 2px 1px #222;
+    box-shadow: 0 0 15px 2px #665FE8;
+}
+
+.modalbg {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#modal img {
+    display: block;
+    width: 400px;
+    margin: 35px auto;
+}
+
+#modal h6 {
+    color: #56545A;
+    font-weight: 600;
+}
+
+#login_form {
+    width: 60%;
+    margin: auto;
+}
+
+.form_group {
+    margin-bottom: 30px;
+}
+
+.form_group input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #665FE8;
+}
+
+#modal button {
+    border-radius: 5px;
+    border: 1px solid #665FE8;
+    width: 75%;
+    background-color: #665FE8;
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 0 2px 0px rgba(102, 95, 232, 0.5);
+    box-shadow: 0 0 5px 1px rgba(102, 95, 232, 0.5);
+    margin: auto;
+    display: block;
+    font-weight: 600;
+}
+
+#gmail {
+    color: #CB0000!important;
+    border: 1px solid #CB0000!important;
+    background-color: #ffffff!important;
+    -webkit-box-shadow: 0 0 5px 1px rgba(203, 0, 0, 0.5);
+    box-shadow: 0 0 5px 1px rgba(203, 0, 0, 0.5)!important;
+}
+
+a {
+    color: #665FE8;
+}
+
+#gmail i {
+    line-height: 0;
+    position: relative;
+    top: 4px;
+    right: 7px;
+    font-size: 1.575rem;
+}
+
+.llgg i {
+    line-height: 0;
+    position: relative;
+    top: 4px;
+    right: 7px;
+    font-size: 1.375rem;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(86, 84, 90, 0.50);
+}
+
+input:-ms-input-placeholder {
+    color: rgba(86, 84, 90, 0.50);
+}
+
+#forget {
+    color: #665FE8;
+}
+
+.form-check span {
+    color: #FFF;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    background: #665FE8;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+input::placeholder {
+    color: rgba(86, 84, 90, 0.50);
+}
+
+.form-check {
+    padding-left: 0;
+    margin-top: 30px;
+    text-align: center!important;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-right: -1.25rem;
+}

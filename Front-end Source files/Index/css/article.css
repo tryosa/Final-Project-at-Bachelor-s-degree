@@ -1,0 +1,436 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir.woff2') format('woff2'), url('../fonts/Vazir.woff') format('woff'), url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Bold.woff2') format('woff2'), url('../fonts/Vazir-Bold.woff') format('woff'), url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Black.eot');
+    src: url('../fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Black.woff2') format('woff2'), url('../fonts/Vazir-Black.woff') format('woff'), url('../fonts/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Medium.eot');
+    src: url('../fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Medium.woff2') format('woff2'), url('../fonts/Vazir-Medium.woff') format('woff'), url('../fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Light.eot');
+    src: url('../fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Light.woff2') format('woff2'), url('../fonts/Vazir-Light.woff') format('woff'), url('../fonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Thin.eot');
+    src: url('../fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Thin.woff2') format('woff2'), url('../fonts/Vazir-Thin.woff') format('woff'), url('../fonts/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body,
+html {
+    font-family: Vazir;
+    background-color: #F7F7FA;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+header {
+    background-color: #FFF;
+}
+
+#navbar_profile {
+    padding: 10px 30px;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#navbar_icons i {
+    font-size: 1.375rem;
+}
+
+#avatar {
+    width: 55px;
+}
+
+#profile_name {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#logo {
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+#logo img {
+    display: block;
+    width: 450px;
+    margin: auto;
+}
+
+.nav-link,
+dropdown-item {
+    color: #4C4A69!important;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0!important;
+}
+
+.dropdown-menu.show {
+    direction: rtl;
+    text-align: center;
+}
+
+#post {
+    text-align: right;
+    background-color: #FFF;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(102, 95, 232, 0.5);
+    box-shadow: 0 0 5px 0 rgba(102, 95, 232, 0.5);
+    direction: rtl;
+    padding: 15px 30px;
+    padding-bottom: 50px;
+}
+
+#post_detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#author {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#author_image {
+    width: 100px;
+}
+
+#author_image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#post_title {
+    padding: 0 15px;
+}
+
+#post_title h4 {
+    margin-bottom: 20px;
+    color: #616161;
+}
+
+#author_name {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgba(70, 70, 70, 0.50);
+}
+
+#comment {
+    margin-top: 18px;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+#comment>* {
+    margin-right: 15px;
+}
+
+#comment i {
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+#image_wrapper {
+    margin: 35px auto;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+#image_wrapper img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#content_wrapper P {
+    line-height: 1.75;
+}
+
+#tag_wrapper {
+    margin-top: 40px;
+}
+
+#tag_wrapper ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#tag_wrapper ul li {
+    margin: 0 10px;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+#tag_wrapper ul li:first-of-type {
+    color: rgba(58, 58, 58, 0.58);
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#tag_wrapper ul li:not(:first-of-type) {
+    background-color: #EAEBF2;
+    color: #3B3A3A;
+}
+
+.article_wrapper {
+    padding: 0 50px;
+}
+
+.article h4 {
+    padding: 0 25px;
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 35px;
+}
+
+.article_box {
+    padding: 15px 30px;
+    width: 100%;
+    background-color: #FFF;
+    direction: rtl;
+    text-align: right;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+    box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+}
+
+.article_imagesss {
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+    box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+}
+
+.article_imagesss img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.article_more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.author_images {
+    width: 60px;
+}
+
+.author_images img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.authur_namess {
+    color: #616161;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.related_title {
+    padding-right: 10px;
+}
+
+#comment_section {
+    margin-top: 100px;
+}
+
+#comment_section h4 {
+    direction: rtl;
+    text-align: right;
+    padding: 0 25px;
+    margin-bottom: 35px;
+}
+
+#show_comment {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.type_comment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #FFF;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+    box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+}
+
+.type_comment img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.type_comment textarea {
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    border: 0;
+    outline: none;
+}
+
+.type_comment textarea::-webkit-input-placeholder {
+    font-weight: bolder;
+    color: #AAA!important;
+    font-size: 1.25rem;
+}
+
+.type_comment textarea:-ms-input-placeholder {
+    font-weight: bolder;
+    color: #DDD;
+    font-size: 1.25rem;
+}
+
+.type_comment textarea::placeholder {
+    font-weight: bolder;
+    color: #DDD;
+    font-size: 1.25rem;
+}
+
+.user_comment {
+    background: #FFF;
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+    box-shadow: 0 0 5px 0 rgba(97, 97, 97, 0.5);
+    direction: rtl;
+    text-align: right;
+    margin: 35px 0;
+}
+
+.user_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.user_img {
+    background-color: #54E893;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.user_img img {
+    border-radius: 50%;
+}
+
+.user_name {
+    margin-right: 15px;
+}
+
+.user_name h4 {
+    color: #616161;
+    padding: 0!important;
+    margin: 0!important;
+    margin-bottom: 15px!important;
+}
+
+.user_icons {
+    font-size: 1.5rem;
+}
+
+.user_name span {
+    font-size: 0.75rem;
+    color: rgba(97, 97, 97, 0.65);
+    font-weight: 500;
+}
+
+.user_icons a {
+    color: #616161;
+    margin-right: 30px;
+}
+
+.user_body {
+    margin: 35px 0;
+}
+
+.user_body p {
+    padding: 0 50px;
+    font-size: 1.25rem;
+    color: #616161;
+}
+
+.reply .user_comment {
+    margin-top: 0;
+}
+
+@media only screen and (min-width:0) {}
+
+@media only screen and (min-width:576px) {}
+
+@media only screen and (min-width:768px) {}
+
+@media only screen and (min-width:992px) {}
+
+@media only screen and (min-width:1200px) {}
